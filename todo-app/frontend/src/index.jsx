@@ -1,6 +1,6 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
-import ReactDom from 'react-dom'
-import App from './main/app'
+import App from './main/App'
 
-ReactDom.render(<App/>, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))
